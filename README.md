@@ -1,5 +1,5 @@
 Olá, eu sou o Caio
-- 🔓 I’m currently learning HTML, CSS e dando início ao JavaScript
+- 🔓 I’m currently learning HTML, CSS and starting the JavaScript.
 - 📤 How to reach me: ncaio037@gmail.com
 
 <div align="center">
