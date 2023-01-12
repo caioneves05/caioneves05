@@ -1,4 +1,4 @@
-Olá, eu sou o Caio.
+Hi, I'm the Caio
 - 🔓 I’m currently learning HTML, CSS and starting the JavaScript.
 - 📤 How to reach me: ncaio037@gmail.com
 
