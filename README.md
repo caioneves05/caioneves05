@@ -1,5 +1,4 @@
 Hi, I'm the Caio
-- 🔓 I’m currently learning JavaScript and starting the NodeJS.
 - 📤 How to reach me: ncaio037@gmail.com
 
 <div align="center">
