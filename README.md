@@ -1,4 +1,6 @@
-Hi, I'm the Caio
+Hi, I'm the Caio.
+Since I was 15 I've always had a great admiration for technology, I admired the way it positively changes people's lives. I was fascinated by the ability to develop high-quality software that can help solve complex problems and streamline processes.
+
 - 📤 How to reach me: ncaio037@gmail.com
 
 <div align="center">
