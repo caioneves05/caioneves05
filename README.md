@@ -10,6 +10,7 @@ Since I was a little boy, I have had a great admiration for technology, I think 
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=caioneves05&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caioneves05&layout=compact&langs_count=7&theme=rose_pine"/>
 </div>
 
 ## 💻 Tech Stack
