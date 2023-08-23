@@ -1,8 +1,7 @@
 # 👤 About me
 
 Hi, I'm the Caio.
-Since I was a little boy, I have had a great admiration for technology, I think it's incredible how it positively changes people's lives.
-
+My main goal is to become a specialist in software development and help create high-level technological solutions.
 - 📧 How to contact: ncaio037@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/caio-neves-531a26206/)
 
