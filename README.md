@@ -16,13 +16,7 @@ My main goal is to become a specialist in software development and help create h
 
 Here are some of the technologies and tools I use in my projects: 
 
-- <img align="center" src="https://img.shields.io/badge/Javascript-FFEA00?style=for-the-badge&logo=typescript&logoColor=black"> <img align="center" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-- <img align="center" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> <img align="center" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
-- <img align="center" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> <img align="center" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-- <img align="center" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"> <img align="center" src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"> <img align="center" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-- <img align="center" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img align="center" src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img align="center" src="https://img.shields.io/badge/Tailwind CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> <img align="center" src="https://img.shields.io/badge/Styled Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-- <img align="center" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-
+[![My Skills](https://skillicons.dev/icons?i=js,typescript,nodejs,expressjs,mongodb,docker,jest,nestjs,linux,react,nextjs,kafka,graphql,git,flask,python,apollo,tailwindcss,styledcomponents,aws)](https://skillicons.dev)
 
 
 Thanks for taking a look at my repository! If you like what you see, leave a ⭐️ on the project to show your support. Feel free to explore my projects and I hope they can inspire you on your development journey!
