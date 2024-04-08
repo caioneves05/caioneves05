@@ -7,10 +7,7 @@ My main goal is to become a specialist in software development and help create h
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=caioneves05&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caioneves05&layout=compact&langs_count=7&theme=rose_pine"/>
-</div>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=caioneves05&theme=highcontrast&hide_border=true&border_radius=20&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" /></a>
 
 ## 💻 Tech Stack
 
