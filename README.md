@@ -16,7 +16,7 @@ My main goal is to become a specialist in software development and help create h
 
 Here are some of the technologies and tools I use in my projects: 
 
-[![My Skills](https://skillicons.dev/icons?i=js,typescript,nodejs,expressjs,mongodb,docker,jest,nestjs,linux,react,nextjs,kafka,graphql,git,flask,python,apollo,tailwindcss,styledcomponents,aws)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,typescript,nodejs,expressjs,mongodb,docker,jest,nestjs,linux,react,nextjs,kafka,graphql,git,flask,python,apollo,tailwindcss,styledcomponents,aws,spring)](https://skillicons.dev)
 
 
 
