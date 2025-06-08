@@ -8,9 +8,9 @@ My main goal is to become a specialist in software development and help create h
 ## 📊 GitHub Stats
 
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=caioneves05&theme=gotham&hide_border=true&border_radius=20&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" /></a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=caioneves05&layout=compact&theme=gotham&hide_border=true&border_radius=20" alt="Linguagens mais usadas" />
 
 ![Caio Neves github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=caioneves05&custom_title=Activity%20Graph&hide_border=true&theme=gotham)
-
 
 ## 💻 Tech Stack
 
