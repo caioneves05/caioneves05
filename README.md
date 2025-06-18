@@ -19,7 +19,7 @@ I’m driven by clean code, innovative problem-solving, and a commitment to turn
 
 Here are some of the technologies and tools I use in my projects: 
 
-[![My Skills](https://skillicons.dev/icons?i=js,typescript,nodejs,java,spring,expressjs,mongodb,docker,jest,nestjs,linux,react,nextjs,kafka,graphql,git,flask,python,apollo,tailwindcss,styledcomponents,angular,vuejs,aws)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=typescript,java,python,nodejs,nestjs,expressjs,flask,spring,graphql,apollo,react,nextjs,angular,vuejs,tailwindcss,styledcomponents,mongodb,kafka,docker,aws,terraform,linux,jest,git)](https://skillicons.dev)
 
 
 
