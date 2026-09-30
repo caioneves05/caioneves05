@@ -4,7 +4,7 @@
 
 # About Me 🚀
 
-Hi! I'm Caio Neves, a Full Stack Software Engineer & Mobile Developer with 3+ years of experience building scalable microservices, cloud-native systems, and high-performance mobile applications. 💻📱
+Hi! I'm Caio Neves, a Full Stack Software Engineer & Mobile Developer with 4+ years of experience building scalable microservices, cloud-native systems, and high-performance mobile applications. 💻📱
 
 I specialize in designing reliable, secure, and efficient solutions using Java/Spring Boot, TypeScript/Node.js, React Native, and AWS. I have a strong track record of delivering measurable impact — improving performance by up to 70%, reducing system latency, and increasing platform reliability. ⚡
 
