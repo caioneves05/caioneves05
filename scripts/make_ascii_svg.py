@@ -18,10 +18,10 @@ SVG_W, SVG_H = 840, 880
 
 # ascii density ramp: space (bright) → @ (dark)
 RAMP = ' .:-=+*#%@'  # 10-level ramp, space for bright bg
-COLS = 65
-FONT_SIZE = 10
+COLS = 80
+FONT_SIZE = 9
 CHAR_W = SVG_W / COLS
-CHAR_H = CHAR_W * 2.0  # monospace aspect ratio
+CHAR_H = CHAR_W * 1.85  # monospace aspect ratio
 ROWS = int(SVG_H / CHAR_H)
 
 FG = "#c9d1d9"   # github light gray foreground

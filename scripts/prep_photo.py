@@ -25,21 +25,19 @@ def main():
     arr[bg_mask] = [255, 255, 255]
     img = Image.fromarray(arr)
 
-    # auto-crop: find bounding box of non-white pixels (the subject)
+    # detect top of hair (first non-white row) and crop a face-height window from there
     gray = np.array(img.convert("L"))
-    rows_with_content = np.where(np.any(gray < 230, axis=1))[0]
-    cols_with_content = np.where(np.any(gray < 230, axis=0))[0]
+    non_white_rows = np.where(np.any(gray < 220, axis=1))[0]
+    top = max(0, non_white_rows[0] - int(h * 0.01)) if len(non_white_rows) else 0
 
-    if len(rows_with_content) and len(cols_with_content):
-        pad = int(min(h, w) * 0.03)
-        top    = max(0, rows_with_content[0] - pad)
-        bottom = min(h, rows_with_content[-1] + pad)
-        left   = max(0, cols_with_content[0] - pad)
-        right  = min(w, cols_with_content[-1] + pad)
-        img = img.crop((left, top, right, bottom))
+    # face window = ~55% of original height starting from hair top
+    face_h = int(h * 0.52)
+    bottom = min(h, top + face_h)
+    pad_x = int(w * 0.07)
+    img = img.crop((pad_x, top, w - pad_x, bottom))
 
     # contrast + sharpness for ASCII legibility
-    img = ImageEnhance.Contrast(img).enhance(1.7)
+    img = ImageEnhance.Contrast(img).enhance(1.8)
     img = ImageEnhance.Sharpness(img).enhance(2.2)
 
     img.save(OUT)
