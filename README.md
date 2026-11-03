@@ -11,7 +11,7 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./caio-ascii.svg" width="420" alt="Caio Neves — ASCII portrait" /></td>
+<td valign="top"><img src="./constellation.svg" width="420" alt="Constellation — continuous particle animation" /></td>
 <td valign="top"><img src="./stats.svg" width="420" alt="Caio's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
