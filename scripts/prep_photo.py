@@ -17,10 +17,16 @@ OUT = SRC.parent / "source-prepped.png"
 def main():
     img = Image.open(SRC).convert("RGB")
 
-    # boost contrast and sharpness for better ASCII detail
-    img = ImageEnhance.Contrast(img).enhance(1.8)
-    img = ImageEnhance.Sharpness(img).enhance(2.0)
-    img = ImageEnhance.Brightness(img).enhance(1.1)
+    # crop to upper 75% — focus on face/torso, drop bottom
+    w, h = img.size
+    img = img.crop((0, 0, w, int(h * 0.82)))
+
+    # strong contrast + sharpness for ASCII legibility
+    img = ImageEnhance.Contrast(img).enhance(2.4)
+    img = ImageEnhance.Sharpness(img).enhance(3.0)
+    img = ImageEnhance.Brightness(img).enhance(0.95)
+    # second contrast pass to push darks darker / lights lighter
+    img = ImageEnhance.Contrast(img).enhance(1.4)
 
     img.save(OUT)
     print(f"Saved → {OUT}")
