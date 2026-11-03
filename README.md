@@ -2,7 +2,7 @@
 
 <h3><code>caio@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Caio's GitHub contribution graph — auto-refreshed daily" />
+<img src="./contrib-heatmap-v2.svg" width="860" alt="Caio's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
