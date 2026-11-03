@@ -9,7 +9,12 @@
 
 <h3><code>caio@github ~ $ whoami</code></h3>
 
-<img src="./info-card.svg" width="860" alt="Caio Neves — profile card" />
+<table>
+<tr>
+<td valign="top"><img src="./caio-ascii.svg" width="420" alt="Caio Neves — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Caio's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
 
 <br>
 <br>
@@ -21,12 +26,6 @@
 [![Email](https://img.shields.io/badge/Email-ncaio037@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ncaio037@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-caioneves05-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/caioneves05)
 [![Portfolio](https://img.shields.io/badge/Portfolio-caioneves.tech-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://caioneves.tech)
-
-<br>
-
-<h3><code>caio@github ~ $ cat stack.txt</code></h3>
-
-[![My Skills](https://skillicons.dev/icons?i=java,typescript,python,nodejs,nestjs,spring,graphql,react,nextjs,angular,tailwind,postgres,mongodb,redis,kafka,docker,kubernetes,aws,terraform,githubactions,linux,jest,git)](https://skillicons.dev)
 
 <br>
 

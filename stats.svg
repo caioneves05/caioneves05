@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="880" viewBox="0 0 840 880">
+  <rect width="840" height="880" fill="#0d1117"/>
+  <rect width="840" height="880" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
+  <rect width="840" height="36" rx="8" fill="#161b22"/>
+  <rect y="24" width="840" height="12" fill="#161b22"/>
+  <circle cx="16" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="18" r="6" fill="#28c840"/>
+  <text x="420" y="23" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="monospace">caioneves05 — stats</text>
+  <text x="32" y="80" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="0ms" fill="freeze"/>caio@github ~ $ ./streak.sh</text>
+  <text x="32" y="168" fill="#39d353" font-size="96" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>4</text>
+  <text x="142" y="152" fill="#8b949e" font-size="14" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>day streak</text>
+  <text x="142" y="174" fill="#8b949e" font-size="12" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>best: 13 days</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="100ms" fill="freeze"/><rect x="32" y="188" width="776" height="6" rx="3" fill="#30363d"/><rect x="32" y="188" width="238" height="6" rx="3" fill="#39d353"/></g>
+  <line x1="32" y1="218" x2="808" y2="218" stroke="#30363d" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="120ms" fill="freeze"/></line>
+  <text x="32" y="242" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="160ms" fill="freeze"/>caio@github ~ $ cat activity.txt</text>
+  <g opacity="0"><text x="32" y="270" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">active days</text><text x="192" y="270" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="204" y="270" fill="#e6edf3" font-size="13" font-family="monospace">186 / 367</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="220ms" fill="freeze"/></g>
+  <g opacity="0"><text x="32" y="292" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">best day</text><text x="192" y="292" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="204" y="292" fill="#e6edf3" font-size="13" font-family="monospace">2025-11-26  (lvl 4)</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="270ms" fill="freeze"/></g>
+  <text x="32" y="320" fill="#8b949e" font-size="11" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="320ms" fill="freeze"/>monthly activity</text>
+  <rect x="33" y="374" width="62" height="8" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.51" dur="80ms" begin="360ms" fill="freeze"/></rect>
+  <text x="64" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">12</text>
+  <rect x="97" y="380" width="62" height="2" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.42" dur="80ms" begin="380ms" fill="freeze"/></rect>
+  <text x="128" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">01</text>
+  <rect x="161" y="372" width="62" height="10" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.53" dur="80ms" begin="400ms" fill="freeze"/></rect>
+  <text x="192" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">02</text>
+  <rect x="225" y="370" width="62" height="12" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.55" dur="80ms" begin="420ms" fill="freeze"/></rect>
+  <text x="256" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">03</text>
+  <rect x="289" y="361" width="62" height="21" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.67" dur="80ms" begin="440ms" fill="freeze"/></rect>
+  <text x="320" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">04</text>
+  <rect x="353" y="366" width="62" height="16" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.61" dur="80ms" begin="460ms" fill="freeze"/></rect>
+  <text x="384" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">05</text>
+  <rect x="417" y="353" width="62" height="29" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.77" dur="80ms" begin="480ms" fill="freeze"/></rect>
+  <text x="448" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">06</text>
+  <rect x="481" y="339" width="62" height="43" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.95" dur="80ms" begin="500ms" fill="freeze"/></rect>
+  <text x="512" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">07</text>
+  <rect x="545" y="334" width="62" height="48" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="1.00" dur="80ms" begin="520ms" fill="freeze"/></rect>
+  <text x="576" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">08</text>
+  <rect x="609" y="362" width="62" height="20" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.65" dur="80ms" begin="540ms" fill="freeze"/></rect>
+  <text x="640" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">09</text>
+  <rect x="673" y="364" width="62" height="18" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.63" dur="80ms" begin="560ms" fill="freeze"/></rect>
+  <text x="704" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">10</text>
+  <rect x="737" y="380" width="62" height="2" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.42" dur="80ms" begin="580ms" fill="freeze"/></rect>
+  <text x="768" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">11</text>
+  <line x1="32" y1="406" x2="808" y2="406" stroke="#30363d" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="420ms" fill="freeze"/></line>
+  <text x="32" y="430" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="460ms" fill="freeze"/>caio@github ~ $ whoami</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="520ms" fill="freeze"/><text x="32" y="458" fill="#e3b341" font-size="13" font-family="monospace" font-weight="bold">os</text><text x="108" y="458" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="458" fill="#e6edf3" font-size="13" font-family="monospace">macOS / Linux</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="560ms" fill="freeze"/><text x="32" y="480" fill="#e3b341" font-size="13" font-family="monospace" font-weight="bold">role</text><text x="108" y="480" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="480" fill="#e6edf3" font-size="13" font-family="monospace">Full Stack Engineer</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="600ms" fill="freeze"/><text x="32" y="502" fill="#e3b341" font-size="13" font-family="monospace" font-weight="bold">location</text><text x="108" y="502" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="502" fill="#e6edf3" font-size="13" font-family="monospace">Brazil</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="640ms" fill="freeze"/><text x="32" y="534" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">java</text><text x="108" y="534" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="534" fill="#e6edf3" font-size="13" font-family="monospace">Spring Boot · Microservices</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="680ms" fill="freeze"/><text x="32" y="556" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">ts</text><text x="108" y="556" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="556" fill="#e6edf3" font-size="13" font-family="monospace">Node.js · NestJS · GraphQL</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="720ms" fill="freeze"/><text x="32" y="578" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">mobile</text><text x="108" y="578" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="578" fill="#e6edf3" font-size="13" font-family="monospace">React Native · Expo</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="760ms" fill="freeze"/><text x="32" y="600" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">cloud</text><text x="108" y="600" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="600" fill="#e6edf3" font-size="13" font-family="monospace">AWS · Docker · Kubernetes</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="800ms" fill="freeze"/><text x="32" y="632" fill="#f778ba" font-size="13" font-family="monospace" font-weight="bold">building</text><text x="108" y="632" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="632" fill="#e6edf3" font-size="13" font-family="monospace">Meu Acerto — CLT app</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="840ms" fill="freeze"/><text x="32" y="654" fill="#56d364" font-size="13" font-family="monospace" font-weight="bold">github</text><text x="108" y="654" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="654" fill="#e6edf3" font-size="13" font-family="monospace">github.com/caioneves05</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="880ms" fill="freeze"/><text x="32" y="676" fill="#56d364" font-size="13" font-family="monospace" font-weight="bold">web</text><text x="108" y="676" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="120" y="676" fill="#e6edf3" font-size="13" font-family="monospace">caioneves.tech</text></g>
+</svg>
