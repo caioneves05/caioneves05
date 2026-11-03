@@ -11,7 +11,8 @@ from pathlib import Path
 DATA = Path(__file__).parent.parent / "data" / "contributions.json"
 OUT = Path(__file__).parent.parent / "contrib-heatmap.svg"
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+# 5-level palette matching GitHub's data-level 0-4
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 CELL = 13
 GAP = 3
 STEP = CELL + GAP
@@ -59,7 +60,7 @@ def render(data: dict) -> str:
                 continue
             ds = d.isoformat()
             cnt = grid.get(ds, 0)
-            lv = level(cnt)
+            lv = min(cnt, len(PALETTE) - 1)  # data-level is already 0-4
             color = PALETTE[lv]
             x = MARGIN_LEFT + col * STEP
             y = MARGIN_TOP + LABEL_H + row * STEP
@@ -97,25 +98,27 @@ def render(data: dict) -> str:
         )
 
     # legend
-    leg_x = WIDTH - 6 * (CELL + 2) - 50
+    n = len(PALETTE)
+    leg_x = WIDTH - n * (CELL + 2) - 50
     leg_y = HEIGHT - 14
     legend_cells = "".join(
         f'<rect x="{leg_x + i * (CELL + 2)}" y="{leg_y}" width="{CELL}" height="{CELL}" '
         f'rx="2" fill="{PALETTE[i]}"/>'
-        for i in range(6)
+        for i in range(n)
     )
     legend = (
         f'<text x="{leg_x - 28}" y="{leg_y + 10}" fill="#8b949e" font-size="10" '
         f'font-family="monospace">Less</text>'
         f'{legend_cells}'
-        f'<text x="{leg_x + 6 * (CELL + 2) + 2}" y="{leg_y + 10}" fill="#8b949e" '
+        f'<text x="{leg_x + n * (CELL + 2) + 2}" y="{leg_y + 10}" fill="#8b949e" '
         f'font-size="10" font-family="monospace">More</text>'
     )
 
-    # footer total
+    # footer
+    active_days = sum(1 for d in data["days"] if d["count"] > 0)
     footer = (
         f'<text x="{MARGIN_LEFT}" y="{HEIGHT - 14}" fill="#8b949e" font-size="10" '
-        f'font-family="monospace">{data["total"]} contributions in the last year</text>'
+        f'font-family="monospace">{active_days} active days in the last year</text>'
     )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">

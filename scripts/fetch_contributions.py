@@ -24,14 +24,11 @@ def fetch() -> dict:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     days = []
-    for td in soup.select("td[data-date]"):
+    for td in soup.select("[data-date]"):
         raw_date = td["data-date"]
-        count_text = td.get("data-level", "0")
-        tooltip = td.get("aria-label", "")
-        # extract count from aria-label e.g. "3 contributions on January 1st"
-        m = re.search(r"(\d+)\s+contribution", tooltip)
-        count = int(m.group(1)) if m else 0
-        days.append({"date": raw_date, "count": count})
+        # GitHub exposes data-level (0-4), not the raw count
+        level = int(td.get("data-level", "0"))
+        days.append({"date": raw_date, "count": level})
 
     if not days:
         print("No contribution data found — check the HTML structure.", file=sys.stderr)
