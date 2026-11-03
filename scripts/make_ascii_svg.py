@@ -17,7 +17,7 @@ OUT = Path("caio-ascii.svg")
 SVG_W, SVG_H = 840, 880
 
 # ascii density ramp: space (bright) → @ (dark)
-RAMP = ' .,:;i1tfLCG08@'  # better detail range for photos
+RAMP = '·.,:;i1tfLCG08@'  # · instead of space so background fills frame
 COLS = 110
 FONT_SIZE = 7
 CHAR_W = SVG_W / COLS
