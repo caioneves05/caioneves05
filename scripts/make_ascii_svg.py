@@ -17,32 +17,24 @@ OUT = Path("caio-ascii.svg")
 SVG_W, SVG_H = 840, 880
 
 # ascii density ramp: space (bright) → @ (dark)
-RAMP = ' .:-=+*#%@'  # 10-level ramp, space for bright bg
+RAMP = '·.,:;-=+*#%@'  # full range: · for white bg, @ for darkest
 COLS = 80
 FONT_SIZE = 9
 CHAR_W = SVG_W / COLS
-CHAR_H = CHAR_W * 1.85  # monospace aspect ratio
+CHAR_H = CHAR_W * 1.85
 ROWS = int(SVG_H / CHAR_H)
 
 FG = "#c9d1d9"   # github light gray foreground
 
-
-THRESHOLD = 185  # pixels brighter than this → space (hide background)
 
 def img_to_ascii(img: Image.Image) -> list[str]:
     img = img.convert("L").resize((COLS, ROWS), Image.LANCZOS)
     arr = np.array(img)
     lines = []
     for row in arr:
-        chars = []
-        for p in row:
-            if p >= THRESHOLD:
-                chars.append(" ")
-            else:
-                # map dark range (0-THRESHOLD) to full ramp (skip space)
-                idx = int((1 - p / THRESHOLD) * (len(RAMP) - 2)) + 1
-                chars.append(RAMP[min(idx, len(RAMP) - 1)])
-        lines.append("".join(chars))
+        # full range: bright (255) → first char (·), dark (0) → last char (@)
+        chars = "".join(RAMP[int((1 - p / 255) * (len(RAMP) - 1))] for p in row)
+        lines.append(chars)
     return lines
 
 
