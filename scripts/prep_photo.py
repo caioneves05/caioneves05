@@ -19,24 +19,28 @@ def main():
     img = Image.open(SRC).convert("RGB")
     w, h = img.size
 
-    # replace near-black background with white BEFORE cropping
+    # replace near-black background with white
     arr = np.array(img)
     bg_mask = np.all(arr < 40, axis=2)
     arr[bg_mask] = [255, 255, 255]
     img = Image.fromarray(arr)
 
-    # find first non-white row (top of hair) to auto-crop tight
+    # auto-crop: find bounding box of non-white pixels (the subject)
     gray = np.array(img.convert("L"))
-    non_white_rows = np.where(np.any(gray < 240, axis=1))[0]
-    top = max(0, non_white_rows[0] - int(h * 0.02)) if len(non_white_rows) else 0
+    rows_with_content = np.where(np.any(gray < 230, axis=1))[0]
+    cols_with_content = np.where(np.any(gray < 230, axis=0))[0]
 
-    # crop: from hair top to 68% of original height, trim 4% sides
-    pad_x = int(w * 0.04)
-    img = img.crop((pad_x, top, w - pad_x, int(h * 0.68)))
+    if len(rows_with_content) and len(cols_with_content):
+        pad = int(min(h, w) * 0.03)
+        top    = max(0, rows_with_content[0] - pad)
+        bottom = min(h, rows_with_content[-1] + pad)
+        left   = max(0, cols_with_content[0] - pad)
+        right  = min(w, cols_with_content[-1] + pad)
+        img = img.crop((left, top, right, bottom))
 
-    # mild contrast + sharpness for ASCII legibility
-    img = ImageEnhance.Contrast(img).enhance(1.6)
-    img = ImageEnhance.Sharpness(img).enhance(2.0)
+    # contrast + sharpness for ASCII legibility
+    img = ImageEnhance.Contrast(img).enhance(1.7)
+    img = ImageEnhance.Sharpness(img).enhance(2.2)
 
     img.save(OUT)
     print(f"Saved → {OUT}")
