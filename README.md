@@ -29,4 +29,10 @@
 
 <br>
 
+<h3><code>caio@github ~ $ cat stack.txt</code></h3>
+
+[![My Skills](https://skillicons.dev/icons?i=java,typescript,python,nodejs,nestjs,spring,graphql,react,nextjs,angular,tailwind,postgres,mongodb,redis,kafka,docker,kubernetes,aws,terraform,githubactions,linux,jest,git)](https://skillicons.dev)
+
+<br>
+
 </div>
