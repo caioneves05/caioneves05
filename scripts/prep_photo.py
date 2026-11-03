@@ -17,10 +17,10 @@ OUT = SRC.parent / "source-prepped.png"
 def main():
     img = Image.open(SRC).convert("RGB")
 
-    # crop: keep face + neck only (top 48%), small horizontal padding removal
+    # crop: face + neck + collar, remove bottom 35% and narrow sides
     w, h = img.size
-    pad_x = int(w * 0.06)
-    img = img.crop((pad_x, 0, w - pad_x, int(h * 0.50)))
+    pad_x = int(w * 0.05)
+    img = img.crop((pad_x, 0, w - pad_x, int(h * 0.65)))
 
     # strong contrast + sharpness for ASCII legibility
     img = ImageEnhance.Contrast(img).enhance(2.4)

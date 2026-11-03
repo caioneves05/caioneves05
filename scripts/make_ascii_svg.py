@@ -17,11 +17,11 @@ OUT = Path("caio-ascii.svg")
 SVG_W, SVG_H = 840, 880
 
 # ascii density ramp: space (bright) → @ (dark)
-RAMP = '·.,:;i1tfLCG08@'  # · instead of space so background fills frame
-COLS = 110
-FONT_SIZE = 7
+RAMP = ' .:-=+*#%@'  # 10-level ramp, space for bright bg
+COLS = 65
+FONT_SIZE = 10
 CHAR_W = SVG_W / COLS
-CHAR_H = CHAR_W * 1.9  # monospace aspect ratio
+CHAR_H = CHAR_W * 2.0  # monospace aspect ratio
 ROWS = int(SVG_H / CHAR_H)
 
 FG = "#c9d1d9"   # github light gray foreground
