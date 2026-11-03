@@ -39,7 +39,7 @@
   <text x="640" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">09</text>
   <rect x="673" y="364" width="62" height="18" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.63" dur="80ms" begin="560ms" fill="freeze"/></rect>
   <text x="704" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">10</text>
-  <rect x="737" y="380" width="62" height="2" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.42" dur="80ms" begin="580ms" fill="freeze"/></rect>
+  <rect x="737" y="380" width="62" height="2" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.43" dur="80ms" begin="580ms" fill="freeze"/></rect>
   <text x="768" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">11</text>
   <line x1="32" y1="406" x2="808" y2="406" stroke="#30363d" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="420ms" fill="freeze"/></line>
   <text x="32" y="430" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="460ms" fill="freeze"/>caio@github ~ $ whoami</text>
