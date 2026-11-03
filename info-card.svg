@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="446" viewBox="0 0 640 446">
+  <rect width="640" height="446" rx="8" fill="#0d1117"/>
+  <rect width="640" height="32" rx="8" fill="#161b22"/><rect y="20" width="640" height="12" fill="#161b22"/>
+  <circle cx="16" cy="16" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="16" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="16" r="6" fill="#28c840"/>
+  <text x="320" y="20" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="monospace">caioneves05 — zsh</text>
+  <g opacity="0"><text x="20" y="70" fill="#39d353" font-size="13" font-weight="bold" font-family="monospace">caio</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="0ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="70" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="50ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="70" fill="#e6edf3" font-size="13" font-family="monospace">@github</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="100ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="92" fill="#8b949e" font-size="12" font-family="monospace">────────────────────</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="150ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="114" fill="#e3b341" font-size="13" font-weight="bold" font-family="monospace">role</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="200ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="114" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="250ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="114" fill="#e6edf3" font-size="13" font-family="monospace">Full Stack Engineer · Mobile Developer</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="300ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="136" fill="#e3b341" font-size="13" font-weight="bold" font-family="monospace">location</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="350ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="136" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="400ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="136" fill="#e6edf3" font-size="13" font-family="monospace">Brazil 🇧🇷</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="450ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="158" fill="#e3b341" font-size="13" font-weight="bold" font-family="monospace">experience</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="500ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="158" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="550ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="158" fill="#e6edf3" font-size="13" font-family="monospace">4+ years</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="600ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="202" fill="#79c0ff" font-size="13" font-weight="bold" font-family="monospace">stack</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="650ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="202" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="700ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="202" fill="#e6edf3" font-size="13" font-family="monospace">Java · TypeScript · Node.js · React Native</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="750ms" fill="freeze"/></g>
+  <g opacity="0"><text x="128" y="224" fill="#e6edf3" font-size="13" font-family="monospace">NestJS · GraphQL · Prisma · AWS</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="800ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="268" fill="#f778ba" font-size="13" font-weight="bold" font-family="monospace">building</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="850ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="268" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="900ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="268" fill="#e6edf3" font-size="13" font-family="monospace">Meu Acerto — CLT workers rights app</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="950ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="290" fill="#f778ba" font-size="13" font-weight="bold" font-family="monospace">open source</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1000ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="290" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1050ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="290" fill="#e6edf3" font-size="13" font-family="monospace">simba-core — NestJS/GraphQL boilerplate</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1100ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="334" fill="#56d364" font-size="13" font-weight="bold" font-family="monospace">github</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1150ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="334" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1200ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="334" fill="#e6edf3" font-size="13" font-family="monospace">github.com/caioneves05</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1250ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="356" fill="#56d364" font-size="13" font-weight="bold" font-family="monospace">linkedin</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1300ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="356" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1350ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="356" fill="#e6edf3" font-size="13" font-family="monospace">linkedin.com/in/caioneves05</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1400ms" fill="freeze"/></g>
+  <g opacity="0"><text x="20" y="378" fill="#56d364" font-size="13" font-weight="bold" font-family="monospace">portfolio</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1450ms" fill="freeze"/></g>
+  <g opacity="0"><text x="108" y="378" fill="#8b949e" font-size="13" font-family="monospace">:</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1500ms" fill="freeze"/></g>
+  <g opacity="0"><text x="120" y="378" fill="#e6edf3" font-size="13" font-family="monospace">caioneves.tech</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1550ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="20" y="410" width="16" height="16" rx="3" fill="#ff6b6b"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1600ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="42" y="410" width="16" height="16" rx="3" fill="#ffa94d"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1650ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="64" y="410" width="16" height="16" rx="3" fill="#ffd43b"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1700ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="86" y="410" width="16" height="16" rx="3" fill="#69db7c"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1750ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="108" y="410" width="16" height="16" rx="3" fill="#4dabf7"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1800ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="130" y="410" width="16" height="16" rx="3" fill="#cc5de8"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1850ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="152" y="410" width="16" height="16" rx="3" fill="#f783ac"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1900ms" fill="freeze"/></g>
+  <g opacity="0"><rect x="174" y="410" width="16" height="16" rx="3" fill="#a9e34b"/><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="1950ms" fill="freeze"/></g>
+</svg>
