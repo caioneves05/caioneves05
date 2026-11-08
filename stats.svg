@@ -8,13 +8,13 @@
   <circle cx="56" cy="18" r="6" fill="#28c840"/>
   <text x="420" y="23" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="monospace">caioneves05 — stats</text>
   <text x="32" y="80" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="0ms" fill="freeze"/>caio@github ~ $ ./streak.sh</text>
-  <text x="32" y="168" fill="#39d353" font-size="96" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>4</text>
+  <text x="32" y="168" fill="#39d353" font-size="96" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>5</text>
   <text x="142" y="152" fill="#8b949e" font-size="14" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>day streak</text>
   <text x="142" y="174" fill="#8b949e" font-size="12" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="60ms" fill="freeze"/>best: 13 days</text>
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="100ms" fill="freeze"/><rect x="32" y="188" width="776" height="6" rx="3" fill="#30363d"/><rect x="32" y="188" width="238" height="6" rx="3" fill="#39d353"/></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="100ms" fill="freeze"/><rect x="32" y="188" width="776" height="6" rx="3" fill="#30363d"/><rect x="32" y="188" width="298" height="6" rx="3" fill="#39d353"/></g>
   <line x1="32" y1="218" x2="808" y2="218" stroke="#30363d" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="120ms" fill="freeze"/></line>
   <text x="32" y="242" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="160ms" fill="freeze"/>caio@github ~ $ cat activity.txt</text>
-  <g opacity="0"><text x="32" y="270" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">active days</text><text x="192" y="270" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="204" y="270" fill="#e6edf3" font-size="13" font-family="monospace">190 / 371</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="220ms" fill="freeze"/></g>
+  <g opacity="0"><text x="32" y="270" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">active days</text><text x="192" y="270" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="204" y="270" fill="#e6edf3" font-size="13" font-family="monospace">191 / 365</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="220ms" fill="freeze"/></g>
   <g opacity="0"><text x="32" y="292" fill="#79c0ff" font-size="13" font-family="monospace" font-weight="bold">best day</text><text x="192" y="292" fill="#8b949e" font-size="13" font-family="monospace">:</text><text x="204" y="292" fill="#e6edf3" font-size="13" font-family="monospace">2025-11-26  (lvl 4)</text><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="270ms" fill="freeze"/></g>
   <text x="32" y="320" fill="#8b949e" font-size="11" font-family="monospace" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="320ms" fill="freeze"/>monthly activity</text>
   <rect x="33" y="374" width="62" height="8" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.51" dur="80ms" begin="360ms" fill="freeze"/></rect>
@@ -35,11 +35,11 @@
   <text x="512" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">07</text>
   <rect x="545" y="334" width="62" height="48" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="1.00" dur="80ms" begin="520ms" fill="freeze"/></rect>
   <text x="576" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">08</text>
-  <rect x="609" y="362" width="62" height="20" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.65" dur="80ms" begin="540ms" fill="freeze"/></rect>
+  <rect x="609" y="360" width="62" height="22" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.68" dur="80ms" begin="540ms" fill="freeze"/></rect>
   <text x="640" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">09</text>
-  <rect x="673" y="364" width="62" height="18" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.63" dur="80ms" begin="560ms" fill="freeze"/></rect>
+  <rect x="673" y="349" width="62" height="33" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.81" dur="80ms" begin="560ms" fill="freeze"/></rect>
   <text x="704" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">10</text>
-  <rect x="737" y="376" width="62" height="6" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.49" dur="80ms" begin="580ms" fill="freeze"/></rect>
+  <rect x="737" y="375" width="62" height="7" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="0.50" dur="80ms" begin="580ms" fill="freeze"/></rect>
   <text x="768" y="396" text-anchor="middle" fill="#8b949e" font-size="9" font-family="monospace">11</text>
   <line x1="32" y1="406" x2="808" y2="406" stroke="#30363d" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="420ms" fill="freeze"/></line>
   <text x="32" y="430" fill="#39d353" font-size="13" font-family="monospace" font-weight="bold" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="80ms" begin="460ms" fill="freeze"/>caio@github ~ $ whoami</text>
